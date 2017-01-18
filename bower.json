@@ -1,0 +1,17 @@
+{
+  "name": "mf-mushrooms",
+  "homepage": "https://github.com/Wisbell/mf-mushrooms",
+  "authors": [
+    "Wisbell <westleyisbell@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
