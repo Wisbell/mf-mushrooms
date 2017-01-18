@@ -2,7 +2,7 @@
 
 <p>Find a Mushroom</p>
 <input type="text" ng-model="searchMushroomDescription" name=""><br>
-Poisonous <input ng-click="filters.edible = 'false'" type="radio" name="toxicity">
+Poisonous <input ng-click="filters.edible = 'false'" type="radio" name="toxicity" ng-model="non-poison">
 Non-Poisonous <input ng-click="notPoisonRadioButton()" type="radio" name="toxicity">
 
 <h3>List of Mushrooms</h3>
