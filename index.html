@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Wide Traveling</title>
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-app="travelBookApp">
+
+  <!-- Make a Nav -->
+  <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+      <li><a href="http://localhost:8080/#/">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- Views show up here -->
+  <div ng-view></div>
+
+  <!-- Scripts -->
+  <script src="/bower_components/angular/angular.js"></script>
+
+  <script src="/bower_components/angular-route/angular-route.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+  <script src="app/app.js"></script>
+
+  <script src="app/controllers/bookCtrl.js"></script>
+</body>
+</html>
